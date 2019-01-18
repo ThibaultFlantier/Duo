@@ -1,0 +1,29 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html body {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html body header {
+  background-image: url(https://picsum.photos/1980/400/);
+  height: 25vh;
+}
+html body header nav,
+html body header ul,
+html body header li,
+html body header a {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+html body footer {
+  background-color: green;
+  text-align: center;
+}
+.gras {
+  font-weight: bold;
+}
